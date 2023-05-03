@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'vagas-express-n'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_79D874E0F46A45A7B2B33219C330454D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F3CDE4F0CBC5403EA72C6B1D95AFE7C9 }}
           package: .
