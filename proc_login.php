@@ -2,6 +2,9 @@
 
     session_start();
     include_once('conexao.php');
+    if ($conn->connect_error) {
+      die("Falha na conexão: " . $conn->connect_error);
+    }
     $nome = filter_input(INPUT_POST, 'usuario', FILTER_SANITIZE_STRING);
     $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
     $senhaCrip = md5($senha);
