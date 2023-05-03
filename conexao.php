@@ -1,7 +1,7 @@
 <?php
 $servidor = "vagas-expresso-database.mysql.database.azure.com";
 $usuario = "nabo";
-$senha = "$Enai115";
+$senha = "\$Enai115";
 $dbname = "carros";
 
 // criar a conexão - string de conexão
